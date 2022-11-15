@@ -4,7 +4,7 @@ const routes: RouteRecordRaw[] = [
   {
     path: "/",
     name: "slash",
-    component: () => import("../components/MainPage.vue"),
+    component: () => import("../views/MainPage.vue"),
   },
   {
     path: "/secondPage",

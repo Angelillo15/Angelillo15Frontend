@@ -20,32 +20,32 @@ export default defineComponent({
 </script>
 
 <style>
-    .logo {
-        border-radius: 50%;
-        width: 120px;
-        margin: 50px 100px;
-        display: inline;
-    }
-    .title {
-        font-family: Source Sans Pro, Open Sans, sans-serif;
-        font-weight: bold;
-        letter-spacing: 0px;
-        text-align: center;
-    }
+.logo {
+    border-radius: 50%;
+    width: 120px;
+    margin: 50px 100px;
+    display: inline;
+}
 
-    .subtitle {
-        text-align: left;
-        margin-top: -100px;
-        margin-left: 450px !important;
-    }
+.title {
+    font-family: Source Sans Pro, Open Sans, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center;
+}
 
-    .intro {
-        background-color: #0F0F15;
-        padding-bottom: 50px;
-    }
+.subtitle {
+    text-align: left;
+    margin-top: -80px;
+}
 
-    .center {
-        display: flex;
-        justify-content: center;
-    }
+.intro {
+    background-color: #0F0F15;
+    padding-bottom: 50px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
 </style>
